@@ -66,3 +66,15 @@ The notebook includes an example that:
 Install dependencies:
 ```bash
 pip install tensorflow tensorflow-hub tf_keras pillow numpy matplotlib
+```
+
+## Notes / Improvements
+If I extend this project further I would:
+- Train for more epochs with early stopping
+- Add a confusion matrix + per-class precision/recall
+- Fine-tune upper MobileNetV2 layers (instead of fully freezing)
+- Package inference as a small web app (Streamlit/Flask)
+
+## Acknowledgement
+- MobileNetV2 feature extractor from TensorFlow Hub
+- Kaggle Rock-Paper-Scissors dataset
